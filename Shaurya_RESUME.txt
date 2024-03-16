@@ -1,0 +1,35 @@
+[Resume]
+Name: Shaurya Tiwari
+Contact: +1 (850) 345 4636 | vaasutiwari@gmail.com | shauryatiwari.com | github.com/Shazam6565 | linkedin.com/in/shauryatiwari/
+Objective: Software engineer specializing in Data Mining, Data Science, and Machine Learning, seeking a full-time role to apply my data expertise to address complex challenges with a strong interest in strategic analysis and tech-driven solutions.
+
+[Education]
+- MS in Computer Science, Florida State University, GPA: 3.8/4.0, Expected May 2024
+  Courses: Data Mining, Analytical Methods, Machine Learning, Data Structure Algorithm, Cybersecurity, Database Systems, AI
+- B.Tech in Information Technology, NMIMS University, Mumbai, India, GPA: 3.3/4.0
+
+[Experience]
+- Web Developer, C.O.A.P.S FSU, May 2023 - Present
+  Developed and migrated Joomla version 3 to 5, enhancing user engagement by 35%. Managed high-traffic environments efficiently with Nginx, Redis, AWS, and Node.js.
+- Research Assistant, Department of Scientific Computing, Dec 2022 - Apr 2023
+  Redesigned EOAS/pyutils Library algorithms, boosting system efficiency by 90%. Analyzed over 100 years of Monsoon Forecast data.
+- Full Stack Software Engineering Intern, ACS Pvt. Ltd., Jan 2021 - Dec 2021
+  Integrated SQL databases with Azure Synapse Analytics, managing datasets within a 5 PB data warehouse.
+- Technical Intern - Web Development, Cart Geek, Jun 2020 - Dec 2020
+  Boosted online client reach by 75% via RSS feed integration and implemented AMP, reducing page load time by 25%.
+
+[Skills]
+- Languages: Python, C/C++, C#, Java, Matlab, Bash, LaTeX, JavaScript, Node.js, PHP, Swift
+- Data Analytics Tools: Microsoft Power BI, Azure Synapse Analytics, WebFOCUS, Tableau
+- Database Management Systems: Redis, AWS, Apache Spark, PostgreSQL, Oracle, MySQL, MongoDB
+- Machine Learning / AI Libraries: TensorFlow, Transformers, Pytorch, Keras-Image-Super-Resolution
+- Frameworks: Django, Angular, React, Flask
+- Web Development Tools: RSS, AMP, Nginx, Joomla, WordPress, Magento
+- Certifications: Safety Stock Calculation using ML, Google Data Analytics, Python Programming
+
+[Projects]
+- Personalized Chatbot Using Hugging Face’s Transformers (Jan 2024 - Ongoing): Engineering a sophisticated chatbot with NLP models.
+- Algorithmic Trading Strategies in Python (Oct 2023 - Jan 2024): Implemented three S&P 500 trading strategies using Python.
+- Sentiment Analysis (Aug 2023 - Oct 2023): Open-source project enhancing JavaScript, AI, and web dev skills through sentiment analysis.
+- Enhanced Clique Discovery Algorithms in Uncertain Networks (Aug 2023 - Dec 2023): Improved algorithm speed and accuracy for social network analysis.
+
