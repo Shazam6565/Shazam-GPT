@@ -1,6 +1,6 @@
 
 from ..model.trainer import GPTLanguageModel()
-
+import dill
 batch_size = 32
 block_size = 128
 max_iters = 200
@@ -58,7 +58,7 @@ for iter in range(555000):
     if iter % eval_iters == 0:
         filename = f"model-2_{current_date}_{tokenizer}.pkl"
         with open(filename, 'wb') as f:
-            pickle.dump(model, f)
+            dill.dump(model, f)
             print('Model saved at iteration', iter)
 
         losses = estimate_loss()

@@ -3,10 +3,10 @@
 from torch.utils.tensorboard import SummaryWriter
 import torch
 import torch.multiprocessing as mp
-
+import dill
 from datetime import datetime
 import tiktoken
-import pickle
+import dill
 
 current_date = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 # batch_size = 32
@@ -83,7 +83,7 @@ class Trainer():
             if iter % self.eval_iters == 0:
                 filename = f"model-2_{current_date}_{self.splits}_{self.learning_rate}.pkl"
                 with open(filename, 'wb') as f:
-                    pickle.dump(self.model, f)
+                    dill.dump(self.model, f)
                     print('Model saved at iteration', iter)
 
                 losses = self.estimate_loss()
@@ -103,7 +103,7 @@ class Trainer():
                 print("-----------------------------------------------------")
             
             # Sample a batch of data
-            xb, yb = data.get_batch('train')
+            xb, yb = self.data.get_batch('train')
             
             # Evaluate the loss
             logits, loss = self.model.forward(xb, yb)
@@ -118,7 +118,7 @@ class Trainer():
 
             # Your training code here
         # with open('model-01.pkl', 'wb') as f:
-        #     pickle.dump(model, f)
+        #     dill.dump(model, f)
 
 
         # Close the tensorboard self.writer
