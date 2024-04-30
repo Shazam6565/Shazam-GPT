@@ -11,8 +11,8 @@ function kill_children() {
 trap kill_children SIGINT
 
 # Define the range for lr and splt
-for lr in {4..4}; do
-    for splt in {1..2}; do
+for lr in {1..4}; do
+    for splt in {0..2}; do
         # Define the filename with split value, lr value, current time, and date
         filename="output_split${splt}_lr${lr}_$(date +'%Y-%m-%d_%H-%M-%S').txt"
         
