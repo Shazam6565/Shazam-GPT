@@ -95,10 +95,6 @@ The optimal configuration was found with a learning rate of 2e-4 and a data spli
 - **Validation Loss:** 0.092
 - **Perplexity Score:** 1.097
 
-## Contributions
-
-- **Shaurya Tiwari:** Project Lead, Implementation
-- **Aditya Sugandhi:** Co-Lead, Analysis
 
 ## License
 
